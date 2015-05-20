@@ -1,0 +1,420 @@
+<!-- This file needs to be edited by the lab developer to suit
+the requirements of their lab in particular.-->
+<!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to ements that you want to
+edit -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+
+	<style type="text/css">
+#wrap {
+    width:85%;
+}
+
+
+</style>
+						
+</head>
+
+<body>
+   <div id="experiment">
+        <!-- The Experiment Document Container-->
+        <!-- The lab Header contains the logo and the name of the lab,
+  usually displayed on the top of the page-->
+
+        <header class="default" id="experiment-header">
+            <div class="logo" id="experiment-header-logo">
+            <!-- Enclose the logo image of your lab or write it in 
+      text-->
+            <img src="../images/logo.jpg"></div>
+
+            <div class="heading" id="experiment-header-heading">
+                <!-- Write the name of your lab and link it to the home 
+      page of your lab (h1 tag is preferred while writing your 
+      lab name)-->
+                <a href="../index.html">Machine Dynamics & Mechanical Vibration Lab</a>
+            </div><!-- Add any additional element you want to add to the lab 
+    header, For example : Help (Enclosing them with suitable 
+    div is recommended)-->
+        </header><!-- The lab article is the main content area where all the 
+  experiment content sits-->
+
+        <article id="experiment-article">
+            <!-- The lab article has an header, optional navigational 
+    menu, number of sections, an optional sidebar and a closing 
+    footer-->
+
+            <div class="breadcrumb" id="experiment-article-breadcrumb"></div>
+
+            <header class="heading" id="experiment-article-heading">
+               Forced vibration of SDOF system:
+            </header><!-- Navigation menu is useful to organize the view of 
+      multiple sections inside the article-->
+
+            <nav class="default" id="experiment-article-navigation">
+                <ul id="experiment-article-navigation-menu">
+                    <!-- The menu can be dynamically generated to contain 
+          the headings of your sections or instead write the 
+          menu items of your choice individually enclosedu in 
+          &lt;li&gt; tag as shown below-->
+                </ul>
+            </nav><!-- All the sections of your lab or experiment can be 
+      enclosed together with a div element as shown below-->
+         
+
+            <div id="experiment-article-sections">
+                
+				<!-- First section of the article-->
+ <section id="experiment-article-section-1">
+                    <div class="icon" id="experiment-article-section-1-icon">
+                    <!-- Enclose the icon image of your lab. -->
+                    <img src="../images/theory.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-1-heading">
+                        Theory
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-1-content" >
+                        
+<div class="divContent"  id="wrap">
+                            <p class="MsoNormal" style="line-height: 150%;" >
+ <img  src= "../images/poscr1.png" style="width:80px;height:57px">
+<b>Learning objectives</b></div><br>
+
+After completing this simulation experiment one should be able to </br>
+<ul>
+<li>	Model a given real system to an equivalent simplified model of single degree freedom system with suitable assumptions / idealisations.</br></li>
+<li>	Calculate the natural frequency of undamped oscillation, critical damping constant and critical damping ratio of the proposed single degree freedom system.</br></li>  
+<li>	Study the response of the system for different harmonic excitation frequency and amplitude of the base.</br></li>
+<li>	Calculate the transmissibility ratio and phase angle as a function of forcing frequency</br></li>
+</ul>
+
+<h3 style="color:#997e11">
+Forced vibration of single degree of freedom system- Base excitation</h3></br>
+Introduction </br></br>
+In many cases, dynamical system is excited by motion of the support point or base as shown in the Fig 1.
+ The base excitation system may be of vehicle suspension system or earthquake response of a structure or a performance
+ of a precision machine located close proximity of a vibrating structure as shown in Fig 2. The motion of the base causes the main system to vibrate as a function of excitation frequency and amplitude. 
+ Base excitation models the behaviour of a vibration isolation system and is applicable in the analysis of preventing the excitations from passing from a vibrating base through its mount into a structure. 
+</p>
+
+<p>
+<figure>
+<img src="../images/fvss1.png" style="width:404px;height:344px" >
+<img src="../images/fvss2.png" style="width:460px;height:260px"></br>
+  <figcaption>Fig 1: Dynamic vibration absorber in steel stack</figcaption>
+</figure>
+
+
+<figure>
+<img src="../images/fvss3.png" style="width:357px;height:231px">
+<img src="../images/fvss4.png" style="width:452px;height:151px"></br>
+  <figcaption>Fig 2: Dynamic vibration absorber PCB</figcaption>
+</figure>
+To study the response of a dynamic system for base excitation, given real system  will be modelled as a equivalent single 
+degree spring-mass system as shown in Fig 3 and it is excited by a harmonic input y(t)=Y sin?t applied at the base. The proposed single degree
+spring-mass system can be thought of as representing a single mode of vibration in a real system, whose natural frequency and damping coefficient coincide with that of proposed spring-mass system.  </p>
+
+<figure><img src="../images/fvss5.png" style="width:410px;height:248px"></br>
+  <figcaption>
+Fig 3: A single degree of freedom system and vibration absorber system</figcaption>
+</figure>
+
+Differential equation of motion of the system is given by,</br>
+
+<img src="../images/equations/7VpuOTFH.png" style="width:262px;height:57px" >  &nbsp;&nbsp;&nbsp;     ----(1)</br>
+The general solution of this mathematical model consists of two parts, the complementary
+function which is the solution of the homogenous equation, and the particular integral. The
+particular solution to the preceding equation is a steady-state oscillation of same
+frequency ω as that of excitation. We can assume particular solution to be of the form</br>
+
+
+<img src="../images/equations/igXWniXu.png" style="width:211px;height:28px" > &nbsp;&nbsp;&nbsp;-----(2)</br>
+
+Where X is the amplitude of oscillation and  is the phase lag of the displacement with
+respect to the exciting force.
+By substituting the equation 2 in equation 1, amplitude X and phase  is given as,</br>
+
+
+<img src="../images/equations/yHmAwfAr.png
+" style="width:270px;height:80px" > &nbsp;&nbsp;&nbsp;-----(3)</br>
+
+and 
+<img src="../images/equations/WRMc33pN.png
+" style="width:223px;height:78px" > &nbsp;&nbsp;&nbsp;-----(4)</br>
+
+
+Where,
+ω is the excitation frequency
+k is the equivalent spring stiffness<br>
+
+m is the equivalent mass of the system
+c is the equivalent damping coefficient<br>
+
+The non-dimensional form of expression 3 and 4 are given by,<br>
+
+
+<img src="../images/equations/p6XsFmrM.png
+" style="width:585px;height:94px" > &nbsp;&nbsp;&nbsp;----(5)<br>
+<img src="../images/equations/mLImAVbt.png
+" style="width:234px;height:134px" > &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;----(6)<br>
+
+
+Where,
+The above equations may be represented in terms of following quantities:<br>
+<img src="../images/equations/e0m2G5Vv.png
+" style="width:106px;height:60px" > = natural frequency of un-damped oscillation<br>
+<img src="../images/equations/ks7iAzx6.png 
+" style="width:118px;height:36px" > = critical damping constant<br>
+<img src="../images/equations/mozDv188.png 
+" style="width:57px;height:40px" >= damping ratio<br>
+Xst= F0/k<br>
+<img src="../images/equations/cKDK3nYN.png 
+" style="width:16px;height:28px" > is the frequency ratio<br>
+
+
+
+The quantity X/Xst is called the magnification factor, amplification factor, or amplitude ratio.<br>
+The variations X/Xst and  of and with the frequency ratio η and the damping ratio ξ are<br>
+shown in fig 3.<br>
+
+
+
+
+
+<img src="../images/fvss6.png" style="width:737px;height:391px"></br>
+
+<p>
+Lets try to understand these equations by doing a few simple simulations, go to next tab procedure to find out how to run the simulation to EXPLORE (expR) and to EXPERIMENT (expT).</br>
+ A talking tutorial or a self-running demo with narration can be seen at EXPLAIN (expN).</br>
+
+</p></div>
+ </section>
+      <section id="experiment-article-section-2">
+                    <div class="icon" id="experiment-article-section-2-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/procedure.jpg" style="padding-left: 20px;"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-2-heading">
+                        Procedure
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-2-content">
+                        <div class="divContent">
+                          
+              
+
+                            
+
+                            <p class="MsoNormal" style=
+                            "font-weight: bold; line-height: 150%"><span lang=
+                            "EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            &nbsp;</span></p>
+
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <b><span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                            </span></b><span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>:
+                            </span></p>
+
+                            <p class="MsoNormal" style="line-height: 150%;">
+                            <span lang="EN-IN" style=
+                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+
+                            </span></p>
+</section>
+       <section id="experiment-article-section-3">
+                    <div class="icon" id="experiment-article-section-3-icon">
+                    <!-- Enclose the icon image of your lab. -->
+                     <img src="../images/selfevaluation.jpg" style="padding-left: 50px;"></div>
+                    <!-- The heading for the section can be enclosed in a 
+        div tag. -->
+
+                    <div class="heading" id=
+                    "experiment-article-section-3-heading">
+                        Self Evaluation
+                    </div>
+
+                    <div class="content" id="experiment-article-section-3-content">
+                        <div class="divQuiz">
+                            
+                        </div>
+                    </div>
+                </section>
+  
+<section id="experiment-article-section-4">
+			
+                    <div class="icon" id="experiment-article-section-4-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/simulation.jpg" style="padding-left: 20px;"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-4-heading">
+                        Simulator
+                    </div>
+
+                <div class="content" id=
+                    "experiment-article-section-4-content">
+			<div class="jwts_title"><div class="jwts_title_left"><a href="javascript:void(null);" title="Click to open!" class="jwts_title_text">expN</a></div></div><div class="jwts_slidewrapper"><div> EXPLAIN for talking tutorial<br><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/videoSim/ForceVib.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/videoSim/ForceVib.swf" type="application/x-shockwave-flash" width="800"></embed></object> </div></div> <div class="jwts_title"><div class="jwts_title_left"><a href="javascript:void(null);" title="Click to open!" class="jwts_title_text">expR</a></div></div><div class="jwts_slidewrapper"><div> <br>EXPLORE User to explore all possibilities<br><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/videoSim/ForcedVib.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/videoSim/ForcedVib.swf" type="application/x-shockwave-flash" width="800"></embed></object> </div></div> <div class="jwts_title"><div class="jwts_title_left"><a href="javascript:void(null);" title="Click to open!" class="jwts_title_text">expT</a></div></div><div class="jwts_slidewrapper"><div><br>EXPERIMENT User to conduct an experiment </div></div> 
+
+</div>
+
+                </section>
+
+
+
+
+
+  <section id="experiment-article-section-5">
+                    <div class="icon" id="experiment-article-section-5-icon">
+                    <!-- Enclose the icon image of your lab -->
+                   <img src="../images/assignment.jpg" style="padding-left: 20px;"></div>
+                    <!-- The heading for the section can be enclosed in a 
+          div tag. -->
+
+                    <div class="heading" id=
+                    "experiment-article-section-5-heading">
+                        Assignment
+                    </div><!-- Write the section content inside a paragraph 
+          element, You can also include images with &lt;img&gt; tag -->
+
+                    <div class="content" id=
+                    "experiment-article-section-5-content">
+                        <div class="divContent">
+                            
+                    </div>
+                </section>
+				
+				<!-- Second section of the article-->
+
+                
+				
+				<!-- Third section of the article-->
+				
+               
+ <section id="experiment-article-section-6">
+                    <div class="icon" id="experiment-article-section-6-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/reference.jpg" style="padding-left: 15px;"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-6-heading">
+                        Reference
+                    </div>
+
+                    <div class="content" id="experiment-article-section-6-content">
+                        <div class="divContent">
+     <p>                   
+References <br><br>
+
+1.  Mechanical Vibrations by  “Singiresu S. Rao” , Addison-Wesley Longman, Incorporated, 1990<br><br>
+
+2. Theory of Vibrations with Applications by  “Chandramouli Padmanabhan,Marie Dillon Dahleh,William T. Thomson”, Published by Pearson Education, 2008<br><br>
+
+3. Mechanical Vibration Practice and Noise Control by “V. Ramamurthi”, Narosa Publishing House, 2012<br><br>
+
+4. Mechanical Vibration by “Haym Benaroya and Mark L. Nagurka”, CRC Press 2010<br><br>
+
+5. Vibration and Acoustics by “Sujatha” by Mc Graw Hill Education, 2010<br><br>
+
+6. Mechanical Vibrations by “G K Grover”, NEM Chand & Bros, 20009 <br><br>
+
+
+NPTEL LINKS :- <br><br>
+<a href="https://www.youtube.com/watch?v=tJNaPt5aPmg">https://www.youtube.com/watch?v=tJNaPt5aPmg</a> <br><br>
+
+
+
+
+
+</p>
+
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-7">
+                    <div class="icon" id="experiment-article-section-7-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/video.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-7-heading">
+                        Video 
+                    </div>
+
+                    <div class="content" id="experiment-article-section-7-content">
+                        <div class="divContent">
+                        
+                            
+                        </div>
+                    </div>
+                </section>
+
+			
+               
+                          
+
+      <section id="experiment-article-section-8">                       
+ <div class="icon" id="experiment-article-section-8-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/quiz.jpg"></div>
+                    <div class="heading" id=
+                    "experiment-article-section-8-heading">
+                        Quiz 
+                    </div>
+
+                    <div class="content" id="experiment-article-section-8-content">
+                        <div class="divQuiz">
+                            
+                        </div>
+                    </div>
+                </section>
+ <section id="experiment-article-section-9">
+                    <div class="icon" id="experiment-article-section-9-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/nptel_library_icon.png"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-9-heading">
+                        NPTEL  
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-9-content">
+                        <div class="divContent">
+                           NPTEL LINKS:-<br>
+                             <a href="https://www.youtube.com/watch?v=tJNaPt5aPmg
+
+">https://www.youtube.com/watch?v=tJNaPt5aPmg
+
+
+</a><br>
+  
+
+
+<a href="https://www.youtube.com/watch?v=JZWf2sdKhS8
+
+">https://www.youtube.com/watch?v=JZWf2sdKhS8
+
+</a>
+                            
+                        </div>
+                    </div>
+                </section>
+              
+               
+            </div>
+        </article>
+    </div>
+</body>
+</html>
