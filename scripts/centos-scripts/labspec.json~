@@ -18,7 +18,6 @@
         }, 
         "description": {
             "developer": [
-               
                 {
                     "contact": {
                         "alternate_email": "", 
@@ -28,7 +27,25 @@
                     }, 
                     "department": "", 
                     "institute": "NITK Surathkal", 
-                    "name": "Mohit Tahiliani", 
+                    "name": "Mohit tahiliani", 
+                    "organization": "", 
+                    "role": "Lab Developer", 
+                    "title": "", 
+                    "web": ""
+                }, 
+               
+              
+              
+                {
+                    "contact": {
+                        "alternate_email": "", 
+                        "email": "tahiliani.nitk@gmail.com",
+                        "mobile_number": "", 
+                        "office_number": ""
+                    }, 
+                    "department": "", 
+                    "institute": "NITK Surathkal", 
+                    "name": "Mohit tahiliani", 
                     "organization": "", 
                     "role": "Lab RA", 
                     "title": "", 
@@ -36,11 +53,11 @@
                 }
             ], 
             "discipline": [
-                "CIVIL"
+                "Machine-Dynamics-Mechanical-Vibration"
             ], 
-            "id": "FluidMechanics", 
+            "id": "me01", 
             "integration_level": 5, 
-            "name": "Computer Programming", 
+            "name": " Mechanical", 
             "server-side": true, 
             "status": "Released", 
             "type": ""
