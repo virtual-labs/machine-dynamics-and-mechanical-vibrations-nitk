@@ -9,13 +9,7 @@ edit -->
 <head>
     <title></title>
 
-<style type="text/css">
-#wrap {
-    width:85%;
-}
 
-
-</style>
 </head>
 
 <body>
@@ -49,7 +43,7 @@ edit -->
             <div class="breadcrumb" id="experiment-article-breadcrumb"></div>
 
             <header class="heading" id="experiment-article-heading">
-               Rotating Unbalance:
+               Rotating Unbalance
             </header><!-- Navigation menu is useful to organize the view of 
       multiple sections inside the article-->
 
@@ -83,18 +77,6 @@ edit -->
                             
 
                             <p class="MsoNormal" style="line-height: 150%;">
- 
-<img  src= "../images/poscr1.png" style="width:80px;height:57px">
-<b>Learning objectives</b></div><br>
-After completing this simulation experiment one should be able to </br>
-<ul><li>	Model a given real system to an equivalent simplified model of single degree freedom system with suitable assumptions / idealisations.</br></li>
-<li>	Calculate the natural frequency of undamped oscillation, critical damping constant and critical damping ratio of the proposed single degree freedom system. </br> </li>
-<li>	Study the response of the system for the excitation caused by an unbalanced mass for different rotating frequency of the machine.</br></li>
-<li>	Calculate steady state amplitude, phase angle as a function rotating frequency of the machine.</br></li>
-</ul>
-<h3 style="color:#997e11">
-Forced vibration of single degree of freedom system- Rotating unbalance</h3></br>
-<h4>Introduction</h4> </br></br>
 Rotating Unbalance is the uneven distribution of mass around an axis of rotation. Unbalance
 is caused when the centre of mass (inertia axis) is out of alignment with the centre of rotation
 (geometric axis). When an object is forced to spin about a fixed axis, if the mass is not evenly
@@ -116,26 +98,14 @@ axis of rotation. This results a centrifugal force proportional to the square of
 rotation. The centrifugal force is the maximum value of sinusoidal excitation in any direction.<br><br>
 
 </p>
+<br>
 
 
-<table >
-<tr>
-<td>
-
+<br>
 <figure >
 <img src="../images/rot1.png" style="width:249px;height:233px">
-  <figcaption>(a) Offshore structure subjected to wave loading</figcaption>
-</figure></td>
-<td></td>
-</tr>
-<tr>
-<td>
-</td>
-<td></td>
-</tr>
-</table>
-
-
+ 
+</figure>
 
 <p>
 The equation of motion in the vertical direction can be written as, </br>
@@ -162,23 +132,11 @@ Equation 2 and 3 written in dimensionless form as,</br>
 <img src="../images/equations/0wXL8ItY.png
 " style="width:224px;height:137px" >		... (5)</br>
 
-The variation of X/ (me/M) and phase angle   for different value of r and ? shown in Fig 2.</br>
-
-
-
-</p>
-
-<figure>
-<img src="../images/rot2.png" style="width:587px;height:402px">
-  <figcaption>(a) Offshore structure subjected to wave loading</figcaption>
-</figure>
-<p>
-
-Lets try to understand these equations by doing a few simple simulations, go to next tab procedure to find out how to run the simulation to EXPLORE</br>
- (expR) and to EXPERIMENT (expT). A talking tutorial or a self-running demo with narration can be seen at EXPLAIN (expN).</br>
 
 
 </p>
+
+
 </div>
     </section>
 
@@ -194,6 +152,7 @@ Lets try to understand these equations by doing a few simple simulations, go t
                     <div class="content" id="experiment-article-section-2-content">
                         <div class="divContent">
             
+                          Change parameters in variables section and observe the changes in the simulation window. Navigate to Graph of Amplitude and Phase and study variation in response to forced vibration with change in parameters.
                         </div> 
 					</div> 						
         </section>
@@ -208,10 +167,21 @@ Lets try to understand these equations by doing a few simple simulations, go t
                         Self Evaluation
                     </div>
 					
-                    <div class="content" id="experiment-article-section-3-content">
+                  <div class="content" id=
+                    "experiment-article-section-3-content">
                         <div class="divQuiz">
                             <div id="displayQuiz">
-                                
+                                <form id="form11" method="post" name="form11">
+                                  <p> Check your understanding after you have gone through the basic theory and the procedure to use the simulator.</p>                             
+ <a style="margin-top: 40px;float: left;
+width: auto;
+padding: 5px 15px;
+color: #FFF;
+background-color: #008B8B;
+border: 1px solid #FFF;
+border-radius: 5px;
+text-decoration: none;" href="index2.html">Get Started</a> 
+                                </form>
                             </div><br>
                         </div>
                     </div>
@@ -226,123 +196,120 @@ Lets try to understand these equations by doing a few simple simulations, go t
                     "experiment-article-section-4-heading">
                         Simulator
                     </div>
-<div class="content" id=
-                    "experiment-article-section-4-content">
+
                   
+<!--
+			<div class="jwts_title"><div class="jwts_title_left"><a href="#" onclick="toggle_visibility('foo4');" class="jwts_title_text">expN</a></div></div><div class="jwts_slidewrapper"><div id="foo4" style="display:none;  margin-left:30px;"><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/videoSim/RotatingUnbalance.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/videoSim/RotatingUnbalance.swf" type="application/x-shockwave-flash" width="800"></embed></object><br>  EXPLAIN for talking tutorial</div></div> <div class="jwts_title"><div class="jwts_title_left"><a href="#" onclick="toggle_visibility('foo4');" class="jwts_title_text">expR</a></div></div><div class="jwts_slidewrapper"><div> EXPLORE User to explore all possibilities<br> <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/videoSim/RotatingUnbalance.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/videoSim/RotatingUnbalance.swf" type="application/x-shockwave-flash" width="800"></embed></object></div></div> <div class="jwts_title"><div class="jwts_title_left"><a href="#" onclick="toggle_visibility('foo4');" class="jwts_title_text">expT</a></div></div><div class="jwts_slidewrapper"><div> EXPERIMENT User to conduct an experiment <br></div></div> 
 
-			<div class="jwts_title"><div class="jwts_title_left"><a href="javascript:void(null);" title="Click to open!" class="jwts_title_text">expN</a></div></div><div class="jwts_slidewrapper"><div><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/videoSim/RotatingUnbalance.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/videoSim/RotatingUnbalance.swf" type="application/x-shockwave-flash" width="800"></embed></object><br>  EXPLAIN for talking tutorial</div></div> <div class="jwts_title"><div class="jwts_title_left"><a href="javascript:void(null);" title="Click to open!" class="jwts_title_text">expR</a></div></div><div class="jwts_slidewrapper"><div> EXPLORE User to explore all possibilities<br> <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/videoSim/RotatingUnbalance.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/videoSim/RotatingUnbalance.swf" type="application/x-shockwave-flash" width="800"></embed></object></div></div> <div class="jwts_title"><div class="jwts_title_left"><a href="javascript:void(null);" title="Click to open!" class="jwts_title_text">expT</a></div></div><div class="jwts_slidewrapper"><div> EXPERIMENT User to conduct an experiment <br></div></div> 
-
-</div>
-
-
-                </section>
+  --> 
 
 
-    <section id="experiment-article-section-5">
+
+<div class="jwts_tabbertab" title=" Simulation"><div class="jwts_title"><div class="jwts_title_left"><a href="#" onclick="toggle_visibility('foo5');" class="jwts_title_text">expR</a></div></div></div>
+<div id="foo5" style="display:none;  margin-left:30px;"> EXPLORE User to explore all possibilities<br> <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/videoSim/RotatingUnbalance.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/videoSim/RotatingUnbalance.swf" type="application/x-shockwave-flash" width="800"></embed></object></div>
+
+           
+
+  </section>
+
+
+  <section id="experiment-article-section-5">
                     <div class="icon" id="experiment-article-section-5-icon">
-                    
-                    <img src="../images/assignment.jpg" style="padding-left: 20px;"></div>
-                    
+                    <!-- Enclose the icon image of your lab -->
+                    <img src="../images/assignment.jpg" style="padding-left: 27px;"></div>
+                    <!-- The heading for the section can be enclosed in a 
+          div tag. -->
 
-                    <div class="heading" id="experiment-article-section-5-heading">
+                    <div class="heading" id=
+                    "experiment-article-section-5-heading">
                         Assignment
                     </div>
 
                     <div class="content" id="experiment-article-section-5-content">
-                        <div class="divContent">
-                            
-
-                            
-
-                        </div>
+                        <ol><li>Study the variation of the following with change in frequency ratio for a SDOF under vibration due to rotating unbalance<ol><li>Amplitude ratio X/X<sub>st</sub></li><li>Phase angle &phi;</li></ol></ol>
                     </div>
                 </section>
 				
 				<!-- Second section of the article-->
 
-                
-
-               
-
-
-                  <section id="experiment-article-section-6">
-                    <div class="icon" id="experiment-article-section-6-icon">
+             <section id="experiment-article-section-8">
+                    <div class="icon" id="experiment-article-section-8-icon">
                     <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/reference.jpg" style="padding-left: 15px;"></div>
+                    <img src="../images/quiz.jpg"></div>
+     <div class="heading" id=
+                    "experiment-article-section-8-heading">
+                        Quiz
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-8-content">
+                        <div class="divQuiz">
+                            <div id="displayQuiz">
+                                <form id="form11" method="post" name="form11">
+                                    <p> Check your ability to answer some of the questions relevant to the simulation that you used.</p> 
+ <a style="margin-top: 40px;float: left;
+width: auto;
+padding: 5px 15px;
+color: #FFF;
+background-color: #008B8B;
+border: 1px solid #FFF;
+border-radius: 5px;
+text-decoration: none;" href="index1.html">Get Started</a>
+
+
+                                   
+                                </form><br>
+                            </div><br>
+                        </div>
+                    </div>
+                </section> 
+
+                <section id="experiment-article-section-7">
+                    <div class="icon" id="experiment-article-section-7-icon">
+                    
+                    <img src="../images/video.jpg" style="padding-left:7px"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-7-heading">
+                        Videos
+                    </div>
+
+                    <div class="content" id="experiment-article-section-7-content">
+                        <div class="divContent">
+                         NPTEL:<br>
+                             <a href="https://www.youtube.com/watch?v=bX_m53Xexvk&list=PLAC668A0566953FB5">Mechanical Vibrations</a><br>
+                        </div>
+                    </div>
+                </section>
+
+           <section id="experiment-article-section-6">
+                    <div class="icon" id="experiment-article-section-6-icon">
+                   
+                    <img src="../images/reference.jpg" style="padding-left: 25px;"></div>
 
                     <div class="heading" id=
                     "experiment-article-section-6-heading">
-                        Reference
+                        References
                     </div>
 
                     <div class="content" id="experiment-article-section-6-content">
                         <div class="divContent">
-                         <p>
-References <br><br>
-
-1.  Mechanical Vibrations by  “Singiresu S. Rao” , Addison-Wesley Longman, Incorporated, 1990<br><br>
-
-2. Theory of Vibrations with Applications by  “Chandramouli Padmanabhan,Marie Dillon Dahleh,William T. Thomson”, Published by Pearson Education, 2008<br><br>
-
-3. Mechanical Vibration Practice and Noise Control by “V. Ramamurthi”, Narosa Publishing House, 2012<br><br>
-
-4. Mechanical Vibration by “Haym Benaroya and Mark L. Nagurka”, CRC Press 2010<br><br>
-
-5. Vibration and Acoustics by “Sujatha” by Mc Graw Hill Education, 2010<br><br>
-
-6. Mechanical Vibrations by “G K Grover”, NEM Chand & Bros, 20009 <br><br>
-
-
-
-
-NPTEL LINKS :- <br><br>
-<a href="https://www.youtube.com/watch?v=QHTJK0v404U">https://www.youtube.com/watch?v=QHTJK0v404U</a> <br><br>
-
-
-
-
-</p>
-                        </div>
+                            <ul><li>
+                            <p style="font-family:courier new,courier,monospace; font-size:18px;"> Singiresu S. Rao (1990), Mechanical Vibrations, Addison-Wesley Longman Incorporated</p></li>
+                            <li><p style="font-family:courier new,courier,monospace; font-size:18px;"> Chandramouli Padmanabhan,Marie Dillon Dahleh,William T. Thomson (2008), Theory of Vibrations with Applications, Pearson Education</p></li>
+                            <li><p style="font-family:courier new,courier,monospace; font-size:18px;"> V. Ramamurthi (2012), Mechanical Vibration Practice and Noise Control, Narosa Publishing House</p></li>
+<li><p style="font-family:courier new,courier,monospace; font-size:18px;"> Haym Benaroya and Mark L. Nagurka (2010), Mechanical Vibration, CRC Press</p></li>
+<li><p style="font-family:courier new,courier,monospace; font-size:18px;"> C Sujatha (2010), Vibration and Acoustics, Mc Graw Hill Education</p></li>
+<li><p style="font-family:courier new,courier,monospace; font-size:18px;"> G K Grover (2009), Mechanical Vibrations, NEM Chand & Bros</p></li>
+                        </ul></div>
                     </div>
                 </section>
-          
- <section id="experiment-article-section-7">
-                    <div class="icon" id="experiment-article-section-7-icon">
-                    <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/video.jpg"></div>
-
-                    <div class="heading" id="experiment-article-section-7-heading">
-                        Video 
-                    </div>
-
-                    <div class="content" id="experiment-article-section-7-content">
-                        
-                    </div>
-                </section>
-
-               
-                
 
               
-                <section id="experiment-article-section-8">                     
- <div class="icon" id="experiment-article-section-8-icon">
-                    <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/quiz.jpg"></div>   
-                    <div class="heading" id="experiment-article-section-8-heading">
-                        Quiz 
-                    </div>
-
-                    <div class="content" id="experiment-article-section-8-content">
-                        <div class="divQuiz">
-                            
-                        </div>
-                    </div>
-                </section>
-
-        <section id="experiment-article-section-9">
+<!--   <section id="experiment-article-section-9">
                     <div class="icon" id="experiment-article-section-9-icon">
                     <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/nptel_library_icon.png"></div>
+<!--                    <img src="../images/nptel_library_icon.png"></div>
 
                     <div class="heading" id=
                     "experiment-article-section-9-heading">
@@ -353,15 +320,12 @@ NPTEL LINKS :- <br><br>
                     "experiment-article-section-9-content">
                         <div class="divContent">
                            NPTEL LINKS:-<br>
-                             <a href="https://www.youtube.com/watch?v=QHTJK0v404U
-
-
-">https://www.youtube.com/watch?v=QHTJK0v404U
-
-
-
+                             <a href="https://www.youtube.com/watch?v=tJNaPt5aPmg
+">https://www.youtube.com/watch?v=tJNaPt5aPmg
 </a><br>
-  
+  <a href="https://www.youtube.com/watch?v=Pa6ugAJhrOY
+">https://www.youtube.com/watch?v=Pa6ugAJhrOY
+</a>
 
 
 
@@ -369,7 +333,8 @@ NPTEL LINKS :- <br><br>
                         </div>
                     </div>
                 </section>
-                     
+    -->           
+
               
             </div>
         </article>

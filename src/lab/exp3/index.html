@@ -76,17 +76,9 @@
 
     function toggle_visibility(id) {
        var e = document.getElementById(id);
-if(id =='foo4')
- { 
-document.getElementById("foo5").style.display = 'none';
-document.getElementById("foo6").style.display = 'none';
-document.getElementById("foo7").style.display = 'none';
-document.getElementById("foo8").style.display = 'none';
-document.getElementById("foo9").style.display = 'none';
-}	
+	
 if(id =='foo5')
  { 
-document.getElementById("foo4").style.display = 'none';
 document.getElementById("foo6").style.display = 'none';
 document.getElementById("foo7").style.display = 'none';
 document.getElementById("foo8").style.display = 'none';
@@ -94,7 +86,6 @@ document.getElementById("foo9").style.display = 'none';
 }
 if(id =='foo6')
  { 
-document.getElementById("foo4").style.display = 'none';
 document.getElementById("foo5").style.display = 'none';
 document.getElementById("foo7").style.display = 'none';
 document.getElementById("foo8").style.display = 'none';
@@ -102,7 +93,6 @@ document.getElementById("foo9").style.display = 'none';
 }	
 if(id =='foo7')
  { 
-document.getElementById("foo4").style.display = 'none';
 document.getElementById("foo5").style.display = 'none';
 document.getElementById("foo6").style.display = 'none';
 document.getElementById("foo8").style.display = 'none';
@@ -110,7 +100,6 @@ document.getElementById("foo9").style.display = 'none';
 }
 if(id =='foo8')
  { 
-document.getElementById("foo4").style.display = 'none';
 document.getElementById("foo5").style.display = 'none';
 document.getElementById("foo6").style.display = 'none';
 document.getElementById("foo7").style.display = 'none';
@@ -118,12 +107,12 @@ document.getElementById("foo9").style.display = 'none';
 }
 if(id =='foo9')
  { 
-document.getElementById("foo4").style.display = 'none';
 document.getElementById("foo5").style.display = 'none';
 document.getElementById("foo6").style.display = 'none';
 document.getElementById("foo7").style.display = 'none';
 document.getElementById("foo8").style.display = 'none';
 }
+
        if(e.style.display == 'block')
           e.style.display = 'none';
 
@@ -247,15 +236,6 @@ $(document).ready(function()
     <!-- ******** ADD/OVERRIDE JAVASCRIPT FILES HERE ********* -->
     <!-- ***************************************************** -->
 
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({jax: ["input/TeX", "output/HTML-CSS"],tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
-	  "HTML-CSS": {  preferredFont: "STIX" }});
-</script>
-<script type="text/javascript"
-  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
-
-<script type="text/javascript" src="http://latex.codecogs.com/latexit.js"></script>
 
 </body>
 </html>

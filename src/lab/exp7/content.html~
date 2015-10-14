@@ -8,13 +8,6 @@ edit -->
 <html>
 <head>
     <title></title>
-<style type="text/css">
-#wrap {
-    width:85%;
-}
-
-
-</style>
 
 </head>
 
@@ -49,7 +42,7 @@ edit -->
             <div class="breadcrumb" id="experiment-article-breadcrumb"></div>
 
             <header class="heading" id="experiment-article-heading">
-               2DOF Forced vibration:
+               2DOF Forced vibration
             </header><!-- Navigation menu is useful to organize the view of 
       multiple sections inside the article-->
 
@@ -80,17 +73,16 @@ edit -->
                     "experiment-article-section-1-content">
                         <div class="divContent" id="wrap">
                             
- <img  src= "../images/poscr1.png" style="width:80px;height:57px">
-<b>Learning objectives</b></div><br>
+<b>Learning objectives</b><br>
 After completing this simulation experiment one should be able to<br>
 <ul><li>
 Model a given real system to an equivalent simplified two degree system and studying
 its free vibration and forced vibration response with suitable assumptions /
 idealisations.</li>
 <li>Calculate the natural frequency vibration and the amplitude of vibration for the give
-excitation force of given two degree freedom system.</li>
+excitation force of given two degree freedom system.</li></ul>
 <b>Forced vibration of 2 degree of freedom system</b><br>
-</ul>Introduction
+Introduction
 Analysing real system as a single degree system is an approximate assumption. Because real
 system has more than just one degree of freedom and are also very rarely linear. It requires
 several degrees of freedom for a meaningful model. Hence a simple 1DOF systems analysis
@@ -98,22 +90,26 @@ is not much helpful in studying the characteristics of the system. A natural ext
 degree of freedom system is to consider the system as two degree of freedom models.
 A System that requires two independent coordinates to describe their motion is called
 two degree-of-freedom systems. Some practical examples of two degree freedom systems
-shown in Fig 2, like as forging hammer anvil supported in its base, which in turn is
+shown below, like as forging hammer anvil supported in its base, which in turn is
 supported on ground isolators, a reciprocating engine with a damper, a relatively light shaft
 with two disks as in a turbocharger rotor, a generator driving a motor through a coupling. For
 a two degree of freedom system there are two equations of motion, each one describing the
 motion of one of the degrees of freedom. In general, the two equations are in the form of
 coupled differential equations.
 
+   
+       <img   src="../images/fvt1.png"  style="width:717px;height:291px">
+  
 
-<img   src="../images/fvt1.png"  style="width:717px;height:291px"><br>
 
-<img  src="../images/fvt2.png"  style="width:698px;height:228px"><br>
-A simplified two degree of freedom system is shown in Fig 3. The motion of the
+
+      <img  src="../images/fvt2.png"  style="width:698px;height:228px">
+ 
+<br>
+A simplified two degree of freedom system is shown below. The motion of the
 system is completely described by the coordinates and x1(t) and x2 (t) which defines the
 positions of the masses m1 and m2 at any time t from the respective equilibrium positions. The
-external F1 (t) and F2(t) respectively. The free-body diagrams of the masses and are shown in
-Fig. 1(b).
+external F1(t) and F2(t) respectively..
 
 <img  src="../images/fvt3.png" style="width:679px;height:400px"><br>
 
@@ -129,7 +125,7 @@ Equations of motion of 2 degree of freedom system are given by:<br>
 " style="width:243px;height:49px" >
 ...(2)<br>
 <u>Free vibration analysis:</u>
-For the free-vibration analysis of the system shown in Fig 1, we set F1 (t) =F2(t) =0. The
+For the free-vibration analysis of the system shown above, we set F1 (t) =F2(t) =0. The
 equation 1 and 2 reduces to,<br>
 
 <img src="../images/equations/cSDgaMQu.png
@@ -159,9 +155,9 @@ by,<br>
 
 Resonance occurs when the exciting frequency coincides with any one of the natural
 frequency of the system.
-Forced vibration analysis:
-For the forced-vibration analysis of the system shown in Fig 3, the system is excited by either
-of harmonic forcing functions F1 (t) and F2(t) or both. But for the specific case, we assume
+<br><u>Forced vibration analysis:</u>
+In case of forced-vibration of the simplified 2DOF system shown above, the system could be excited by either
+of harmonic forcing functions F1(t) or F2(t) or both. But for the specific case, we assume
 the system is excited by harmonic force F1 (t) = F0 sin ωt.
 The equation of motion of the two degree freedom system reduces to,<br>
 <img src="../images/equations/sbmM4kKS.png
@@ -194,11 +190,6 @@ Forced vibration of 2 degree of freedom system<br>
 ...(6)<br>
 The above two equations give the steady state amplitude of vibration of two masses
 respectively as a function of forcing frequency ω.
-Let’s try to understand these equations by doing a few simple simulations, go to next tab
-procedure to find out how to run the simulation to EXPLORE (expR) and to EXPERIMENT
-(expT). A talking tutorial or a self-running demo with narration can be seen at EXPLAIN
-(expN)
-
 </p>
 
 </div>
@@ -225,18 +216,9 @@ procedure to find out how to run the simulation to EXPLORE (expR) and to EXPERIM
                             "font-weight: bold; line-height: 150%"><span lang=
                             "EN-IN" style=
                             'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
-                            &nbsp;</span></p>
+                            &nbsp;Edit parameters in the variables toolbox and observe changes in the dynamics of the 2DOF system shown in simulation window. </span></p>
 
-                            <p class="MsoNormal" style="line-height: 150%;">
-                            <b><span lang="EN-IN" style=
-                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
-                            </span></b><span lang="EN-IN" style=
-                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>:
-                           </span></p>
-
-                            <p class="MsoNormal" style="line-height: 150%;">
-                            <span lang="EN-IN" style=
-                            'font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
+                     
 							<img src="../images/2DOF_forcedvib_procedure_ver01.jpg"  style="width:853px;height:2414px"><br>
 
                             </span></p>
@@ -253,15 +235,26 @@ procedure to find out how to run the simulation to EXPLORE (expR) and to EXPERIM
                     <div class="heading" id=
                     "experiment-article-section-3-heading">
                          Self Evaluation
-                    </div><!-- Write the section content inside a paragraph 
-        element, we can also include images with &lt;img&gt; tag -->
-
-                    <div class="content" id="experiment-article-section-3-content">
+                    </div>
+<div class="content" id=
+                    "experiment-article-section-3-content">
                         <div class="divQuiz">
-                            
+                            <div id="displayQuiz">
+                                <form id="form11" method="post" name="form11">
+                                  <p> Check your understanding after you have gone through the basic theory and the procedure to use the simulator.</p>                             
+ <a style="margin-top: 40px;float: left;
+width: auto;
+padding: 5px 15px;
+color: #FFF;
+background-color: #008B8B;
+border: 1px solid #FFF;
+border-radius: 5px;
+text-decoration: none;" href="index2.html">Get Started</a> 
+                                </form>
+                            </div><br>
                         </div>
                     </div>
-                </section> 
+                </section>
  
  <section id="experiment-article-section-4">
                     <div class="icon" id="experiment-article-section-4-icon">
@@ -273,125 +266,118 @@ procedure to find out how to run the simulation to EXPLORE (expR) and to EXPERIM
                         Simulator
                     </div>
 
-                 <div class="content" id=
-                    "experiment-article-section-4-content">
+   <!--             
 <div class="jwts_title"><div class="jwts_title_left"><a href="javascript:void(null);" title="Click to open!" class="jwts_title_text">expN</a></div></div><div class="jwts_slidewrapper"><div> EXPLAIN for talking tutorial<br> </div></div> <div class="jwts_title"><div class="jwts_title_left"><a href="javascript:void(null);" title="Click to open!" class="jwts_title_text">expR</a></div></div><div class="jwts_slidewrapper"><div> EXPLORE User to explore all possibilities<br><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/videoSim/2DOF-Forced-Vib.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/videoSim/2DOF-Forced-Vib.swf" type="application/x-shockwave-flash" width="800"></embed></object> </div></div> <div class="jwts_title"><div class="jwts_title_left"><a href="javascript:void(null);" title="Click to open!" class="jwts_title_text">expT</a></div></div><div class="jwts_slidewrapper"><div> EXPERIMENT User to conduct an experiment<br><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/videoSim/2DOF-Forced-Vib_Expt.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/videoSim/2DOF-Forced-Vib_Expt.swf" type="application/x-shockwave-flash" width="800"></embed></object> </div></div>
+-->
+			
 
-			</div>
 
+
+<div class="jwts_title"><div class="jwts_title_left"><a href="#" onclick="toggle_visibility('foo5');" class="jwts_title_text">expR</a></div></div>
+<div id="foo5" style="display:none;  margin-left:30px;"> EXPLORE User to explore all possibilities<br><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/videoSim/2DOF-Forced-Vib.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/videoSim/2DOF-Forced-Vib.swf" type="application/x-shockwave-flash" width="800"></embed></object> </div>
+
+<div class="jwts_title"><div class="jwts_title_left"><a href="#" onclick="toggle_visibility('foo6');" class="jwts_title_text">expT</a></div></div>
+<div id="foo6" style="display:none;  margin-left:30px;"> EXPERIMENT User to conduct an experiment<br><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/videoSim/2DOF-Forced-Vib_Expt.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/videoSim/2DOF-Forced-Vib_Expt.swf" type="application/x-shockwave-flash" width="800"></embed></object> </div>
 
                 </section>
 
-
-
-<section id="experiment-article-section-5">
+ <section id="experiment-article-section-5">
                     <div class="icon" id="experiment-article-section-5-icon">
-                    
-                    <img src="../images/assignment.jpg"  style="padding-left: 20px;"> </div>
-                    
-                    <div class="heading" id="experiment-article-section-5-heading">
+                    <!-- Enclose the icon image of your lab -->
+                    <img src="../images/assignment.jpg" style="padding-left: 27px;"></div>
+                    <!-- The heading for the section can be enclosed in a 
+          div tag. -->
+
+                    <div class="heading" id=
+                    "experiment-article-section-5-heading">
                         Assignment
                     </div>
 
                     <div class="content" id="experiment-article-section-5-content">
-                        <div class="divContent">
-                            
-
-                        </div>
+                     <ol><li>Study the variation in 1st and 2nd natural frequencies of 2DoF with change in masses m1,m2 and stiffnesses k1,k2</li></ol>   
                     </div>
                 </section>
 				
 				<!-- Second section of the article-->
 
-               
-   <section id="experiment-article-section-6">
-                    <div class="icon" id="experiment-article-section-6-icon">
+             <section id="experiment-article-section-8">
+                    <div class="icon" id="experiment-article-section-8-icon">
                     <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/reference.jpg" style="padding-left: 15px;"></div>
-
-                    <div class="heading" id=
-                    "experiment-article-section-6-heading">
-                        Reference
+                    <img src="../images/quiz.jpg"></div>
+     <div class="heading" id=
+                    "experiment-article-section-8-heading">
+                        Quiz
                     </div>
 
-                    <div class="content" id="experiment-article-section-6-content">
-                        <div class="divContent">
-                         <p>
-References <br><br>
-
-1.  Mechanical Vibrations by  “Singiresu S. Rao” , Addison-Wesley Longman, Incorporated, 1990<br><br>
-
-2. Theory of Vibrations with Applications by  “Chandramouli Padmanabhan,Marie Dillon Dahleh,William T. Thomson”, Published by Pearson Education, 2008<br><br>
-
-3. Mechanical Vibration Practice and Noise Control by “V. Ramamurthi”, Narosa Publishing House, 2012<br><br>
-
-4. Mechanical Vibration by “Haym Benaroya and Mark L. Nagurka”, CRC Press 2010<br><br>
-
-5. Vibration and Acoustics by “Sujatha” by Mc Graw Hill Education, 2010<br><br>
-
-6. Mechanical Vibrations by “G K Grover”, NEM Chand & Bros, 20009 <br><br>
+                    <div class="content" id=
+                    "experiment-article-section-8-content">
+                        <div class="divQuiz">
+                            <div id="displayQuiz">
+                                <form id="form11" method="post" name="form11">
+                                    <p> Check your ability to answer some of the questions relevant to the simulation that you used.</p> 
+ <a style="margin-top: 40px;float: left;
+width: auto;
+padding: 5px 15px;
+color: #FFF;
+background-color: #008B8B;
+border: 1px solid #FFF;
+border-radius: 5px;
+text-decoration: none;" href="index1.html">Get Started</a>
 
 
-NPTEL LINKS :- <br><br>
-<a href="https://www.youtube.com/watch?v=V_Lj4Pun_WM
-">https://www.youtube.com/watch?v=V_Lj4Pun_WM
-</a> <br><br>
-<a href="https://www.youtube.com/watch?v=6gX4ox-r5t0
-">https://www.youtube.com/watch?v=6gX4ox-r5t0</a> <br><br>
-<a href="https://www.youtube.com/watch?v=9CPA6WG6mRo">https://www.youtube.com/watch?v=9CPA6WG6mRo</a> 
-
-
-
-</p>   
-                          
+                                   
+                                </form><br>
+                            </div><br>
                         </div>
                     </div>
-                </section>
-
-              
-                           
+                </section> 
 
                 <section id="experiment-article-section-7">
                     <div class="icon" id="experiment-article-section-7-icon">
-                    <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/video.jpg"></div>
+                    
+                    <img src="../images/video.jpg" style="padding-left:7px"></div>
 
                     <div class="heading" id=
                     "experiment-article-section-7-heading">
-                        Video 
+                        Videos
                     </div>
 
                     <div class="content" id="experiment-article-section-7-content">
                         <div class="divContent">
-                            
+                         NPTEL:<br>
+                             <a href="https://www.youtube.com/watch?v=bX_m53Xexvk&list=PLAC668A0566953FB5">Mechanical Vibrations</a><br>
                         </div>
                     </div>
-					
                 </section>
-               
-              
 
-                <section id="experiment-article-section-8">
-    <div class="icon" id="experiment-article-section-8-icon">
-                    <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/quiz.jpg"></div>                            
+           <section id="experiment-article-section-6">
+                    <div class="icon" id="experiment-article-section-6-icon">
+                   
+                    <img src="../images/reference.jpg" style="padding-left: 25px;"></div>
 
                     <div class="heading" id=
-                    "experiment-article-section-8-heading">
-                        Quiz 
+                    "experiment-article-section-6-heading">
+                        References
                     </div>
 
-                    <div class="content" id="experiment-article-section-8-content">
-                        <div class="divQuiz">
-                            
-                        </div>
+                    <div class="content" id="experiment-article-section-6-content">
+                        <div class="divContent">
+                            <ul><li>
+                            <p style="font-family:courier new,courier,monospace; font-size:18px;"> Singiresu S. Rao (1990), Mechanical Vibrations, Addison-Wesley Longman Incorporated</p></li>
+                            <li><p style="font-family:courier new,courier,monospace; font-size:18px;"> Chandramouli Padmanabhan,Marie Dillon Dahleh,William T. Thomson (2008), Theory of Vibrations with Applications, Pearson Education</p></li>
+                            <li><p style="font-family:courier new,courier,monospace; font-size:18px;"> V. Ramamurthi (2012), Mechanical Vibration Practice and Noise Control, Narosa Publishing House</p></li>
+<li><p style="font-family:courier new,courier,monospace; font-size:18px;"> Haym Benaroya and Mark L. Nagurka (2010), Mechanical Vibration, CRC Press</p></li>
+<li><p style="font-family:courier new,courier,monospace; font-size:18px;"> C Sujatha (2010), Vibration and Acoustics, Mc Graw Hill Education</p></li>
+<li><p style="font-family:courier new,courier,monospace; font-size:18px;"> G K Grover (2009), Mechanical Vibrations, NEM Chand & Bros</p></li>
+                        </ul></div>
                     </div>
                 </section>
 
-   <section id="experiment-article-section-9">
+              
+<!--   <section id="experiment-article-section-9">
                     <div class="icon" id="experiment-article-section-9-icon">
                     <!-- Enclose the icon image of your lab.-->
-                    <img src="../images/nptel_library_icon.png"></div>
+<!--                    <img src="../images/nptel_library_icon.png"></div>
 
                     <div class="heading" id=
                     "experiment-article-section-9-heading">
@@ -402,29 +388,12 @@ NPTEL LINKS :- <br><br>
                     "experiment-article-section-9-content">
                         <div class="divContent">
                            NPTEL LINKS:-<br>
-                             <a href="https://www.youtube.com/watch?v=V_Lj4Pun_WM
-
-
-">https://www.youtube.com/watch?v=V_Lj4Pun_WM
-
-
+                             <a href="https://www.youtube.com/watch?v=tJNaPt5aPmg
+">https://www.youtube.com/watch?v=tJNaPt5aPmg
 </a><br>
-   <a href="https://www.youtube.com/watch?v=6gX4ox-r5t0
-
-
-
-">https://www.youtube.com/watch?v=6gX4ox-r5t0
-
-
-
-</a><br>
- <a href="https://www.youtube.com/watch?v=V_Lj4Pun_WM
-
-
-">https://www.youtube.com/watch?v=V_Lj4Pun_WM
-
-
-</a><br>
+  <a href="https://www.youtube.com/watch?v=Pa6ugAJhrOY
+">https://www.youtube.com/watch?v=Pa6ugAJhrOY
+</a>
 
 
 
@@ -432,7 +401,8 @@ NPTEL LINKS :- <br><br>
                         </div>
                     </div>
                 </section>
-             
+    -->           
+
                 
             </div>
         </article>

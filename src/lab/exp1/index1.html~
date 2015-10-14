@@ -7,9 +7,9 @@
 
 
  
-<link href="reset.css" media="screen" rel="stylesheet" type="text/css">
-        <link href="slickQuiz.css" media="screen" rel="stylesheet" type="text/css">
-        <link href="master.css" media="screen" rel="stylesheet" type="text/css">
+<link href="../css/reset.css" media="screen" rel="stylesheet" type="text/css">
+        <link href="../css/slickQuiz.css" media="screen" rel="stylesheet" type="text/css">
+        <link href="../css/master.css" media="screen" rel="stylesheet" type="text/css">
 <!--<style type="text/css">
 #container
 {
@@ -36,9 +36,20 @@ font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Verdana,Arial,s
 
   
     <link href="../css/override.css" rel="stylesheet">
+  <style type="text/css">
+#experiment-article-breadcrumb{
+padding:15px 12px;
+}
+#experiment-header-heading a:link{
+padding: 4px 25px -1px;
+}
+#experiment-header-heading {
+margin-top:-1px;
+}
+</style>
 </head>
 
-<body style="padding-right: 150px;font-size: 15px;">
+<body style="padding-right: 225px;font-size: 15px;">
 <div id="container">
   <div id="experiment">
         <!-- The Experiment Document Container-->
@@ -55,7 +66,7 @@ font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Verdana,Arial,s
                 <!-- Write the name of your lab and link it to the home 
       page of your lab (h1 tag is preferred while writing your 
       lab name)-->
-                <a href="../index.html">Machine Dynamics & Mechanical Vibration   Lab</a>
+                <a href="../index.html">Machine Dynamics & Mechanical Vibration Lab</a>
             </div><!-- Add any additional element you want to add to the lab 
     header, For example : Help (Enclosing them with suitable 
     div is recommended)-->
@@ -68,11 +79,11 @@ font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Verdana,Arial,s
     footer-->
 
            
-<div class="breadcrumb" id="experiment-article-breadcrumb"><font color="white"><a href="../../index.html">Home</a><a></a> &gt; <a href="../index.html">Machine Dynamics & Mechanical Vibration  Lab</a> &gt; <a href="index.html">
-                 	Free vibration of cantilever beam: 
+<div class="breadcrumb" id="experiment-article-breadcrumb"><font color="white"><a href="../../index.html">Home</a><a></a> &gt; <a href="../index.html">Machine-Dynamics-Mechanical-Vibration-Lab</a> &gt; <a href="index.html">
+                 	Free vibration of cantilever beam
             </a></font></div>
             <header class="heading" id="experiment-article-heading">
-               Free vibration of cantilever beam: 
+               Free vibration of cantilever beam 
             </header>
 
  </article >
@@ -106,7 +117,7 @@ color: #0C4569; padding-left:30px;"  class="quizName"><!-- where the quiz name g
             <h3 class="quizScore">You Scored: <span><!-- where the quiz score goes --></span></h3>
 
             <h3 style="font-size: 18px;
-margin: 15px 0px 10px;font-weight: bold;" class="quizLevel"><strong>Ranking:</strong> <span><!-- where the quiz ranking level goes --></span></h3>
+margin: 15px 0px 10px;font-weight: bold;" class="quizLevel"><strong>Our Opinion:</strong> <span><!-- where the quiz ranking level goes --></span></h3>
 
             <div class="quizResultsCopy">
                 <!-- where the quiz result copy goes -->
@@ -117,7 +128,7 @@ margin: 15px 0px 10px;font-weight: bold;" class="quizLevel"><strong>Ranking:</st
     </div>
     </div>
  <script src="slickQuiz-config.js"></script>
-  <script src="jquery.js"></script>
+  <script src="../css/jsjquery.js"></script>
        
         <script src="slickQuiz.js"></script>
         <script src="master.js"></script>
