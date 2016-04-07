@@ -5,7 +5,7 @@ span.term {
    color: #556B2F;
 }
 
-
+form > label { cursor :auto;}
 
 #pillmenu {
 	height:50px;

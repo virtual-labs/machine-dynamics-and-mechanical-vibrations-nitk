@@ -6,7 +6,7 @@ var quizJSON = {
     "info": {
         "name":    "Self Evaluation",
         "main":    "<p></p>",
-        "results": "<p style='font-size:20px'><a href='index.html'><u>Click here</u></a> to go to simulation</p>",
+        "results": "",
         "level1":  "Good! You can move on to the simulator right away",
         "level2":  "Make sure to get that one right the next time",
         "level3":  "You did well, but there is still scope of improvement. We suggest another reading of basics before going to simulator",
@@ -41,10 +41,10 @@ var quizJSON = {
         { // Question 5 
             "q": " For a cantilever beam with a point load at the free end, The stiffness is ",
             "a": [
-                {"option": "48EI/L3 ",    "correct": false},
-                {"option": "192EI/L3",     "correct": false},
-		 {"option": "3EI/L3",  "correct": true},
-                {"option": "EI/L3",  "correct": false} 
+                {"option": "48EI/L<sup>3</sup> ",    "correct": false},
+                {"option": "192EI/L<sup>3</sup>",     "correct": false},
+		 {"option": "3EI/L<sup>3</sup>",  "correct": true},
+                {"option": "EI/L<sup>3</sup>",  "correct": false} 
 
 
 // no comma here

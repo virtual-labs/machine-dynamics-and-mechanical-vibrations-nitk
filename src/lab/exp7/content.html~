@@ -73,17 +73,9 @@ edit -->
                     "experiment-article-section-1-content">
                         <div class="divContent" id="wrap">
                             
-<b>Learning objectives</b><br>
-After completing this simulation experiment one should be able to<br>
-<ul><li>
-Model a given real system to an equivalent simplified two degree system and studying
-its free vibration and forced vibration response with suitable assumptions /
-idealisations.</li>
-<li>Calculate the natural frequency vibration and the amplitude of vibration for the give
-excitation force of given two degree freedom system.</li></ul>
-<b>Forced vibration of 2 degree of freedom system</b><br>
-Introduction
-Analysing real system as a single degree system is an approximate assumption. Because real
+
+<b>Introduction</b><br>
+Analyzing real system as a single degree system is an approximate assumption. Because real
 system has more than just one degree of freedom and are also very rarely linear. It requires
 several degrees of freedom for a meaningful model. Hence a simple 1DOF systems analysis
 is not much helpful in studying the characteristics of the system. A natural extension of single
@@ -95,7 +87,7 @@ supported on ground isolators, a reciprocating engine with a damper, a relativel
 with two disks as in a turbocharger rotor, a generator driving a motor through a coupling. For
 a two degree of freedom system there are two equations of motion, each one describing the
 motion of one of the degrees of freedom. In general, the two equations are in the form of
-coupled differential equations.
+coupled differential equations.<br>
 
    
        <img   src="../images/fvt1.png"  style="width:717px;height:291px">
@@ -107,9 +99,9 @@ coupled differential equations.
  
 <br>
 A simplified two degree of freedom system is shown below. The motion of the
-system is completely described by the coordinates and x1(t) and x2 (t) which defines the
+system is completely described by the coordinates and x1(t) and x2(t) which defines the
 positions of the masses m1 and m2 at any time t from the respective equilibrium positions. The
-external F1(t) and F2(t) respectively..
+external F1(t) and F2(t) respectively.
 
 <img  src="../images/fvt3.png" style="width:679px;height:400px"><br>
 
@@ -119,35 +111,35 @@ Equations of motion of 2 degree of freedom system are given by:<br>
 <img src="../images/equations/iGLqfXPs.png
 " style="width:243px;height:49px" >
 
-...(1)<br>
+<br>
 
 <img src="../images/equations/EaenReNV.png
 " style="width:243px;height:49px" >
-...(2)<br>
-<u>Free vibration analysis:</u>
-For the free-vibration analysis of the system shown above, we set F1 (t) =F2(t) =0. The
-equation 1 and 2 reduces to,<br>
+<br>
+<u><b>Free vibration analysis:</b></u><br>
+For the free-vibration analysis of the system shown above, if we set F1(t) = F2(t) =0. The
+equations above reduce to,<br>
 
 <img src="../images/equations/cSDgaMQu.png
 " style="width:297px;height:57px" >
-...(3)<br>
+<br>
 <img src="../images/equations/psLdWMxv.png
 " style="width:228px;height:57px" >
-...(4)<br>
+<br>
 Let us assume the solutions for x1 and x2 under steady state conditions as harmonic
 excitations with the same frequency and phase angle but with different amplitudes and are
 given by,<br>
 <img src="../images/equations/vX5Y5kL3.png
 " style="width:428px;height:36px" >
-...(5)<br>
-By substituting equation 5 in 3 and 4 we have,<br>
+<br>
+By substituting the above solutions in equations of free vibration we have,<br>
 <img src="../images/equations/5ZkWHKJf2.png
 " style="width:331px;height:37px" >  = 0
-...(6)<br>
+<br>
 <img src="../images/equations/jbrt6dRp.png
 " style="width:309px;height:43px" >
-..(7)<br>
-Natural frequency of vibration of the system found by solving equation 6 and 7 and is given
+<br>
+Natural frequency of vibration of the system is found by solving these equations and is given
 by,<br>
 <img src="../images/equations/8JDNjNqE.png
 " style="width:898px;height:82px" ><br>
@@ -155,39 +147,39 @@ by,<br>
 
 Resonance occurs when the exciting frequency coincides with any one of the natural
 frequency of the system.
-<br><u>Forced vibration analysis:</u>
+<br><u><b>Forced vibration analysis:</b></u><br/>
 In case of forced-vibration of the simplified 2DOF system shown above, the system could be excited by either
 of harmonic forcing functions F1(t) or F2(t) or both. But for the specific case, we assume
 the system is excited by harmonic force F1 (t) = F0 sin ωt.
 The equation of motion of the two degree freedom system reduces to,<br>
 <img src="../images/equations/sbmM4kKS.png
 " style="width:384px;height:57px" >
-...(8)<br>
+<br>
 <img src="../images/equations/psLdWMxv.png
 " style="width:228px;height:57px" >
-...(9)<br>
+<br>
 
 When harmonic forcing function acts on the system, the solution consist of transient part and
 the steady state part. In steady state part the vibration of any point in the system take place
 at the frequency of excitation. Let us assume , for the steady state , the solution as,<br>
 <img src="../images/equations/vX5Y5kL3.png
 " style="width:428px;height:36px" >
-...(10)<br>
-Substituting equation 10 in 8 and 9, we will get,<br>
+<br>
+Substituting this in equations of system under forced vibration we get,<br>
 <img src="../images/equations/5ZkWHKJf.png
 " style="width:394px;height:43px" >
-...(11)<br>
+<br>
 <img src="../images/equations/jbrt6dRp.png
-" style="width:309px;height:43px" >...(12)<br>
-By solving equation 11 and 12 we get,<br>
+" style="width:309px;height:43px" ><br>
+By solving the above equations we get,<br>
 <img src="../images/equations/SU4gDXCW.png
 " style="width:495px;height:84px" >
-...(5)<br>
+<br>
 and
-Forced vibration of 2 degree of freedom system<br>
+<br>
 <img src="../images/equations/1p0pd32N.png
 " style="width:495px;height:77px" >
-...(6)<br>
+<br>
 The above two equations give the steady state amplitude of vibration of two masses
 respectively as a function of forcing frequency ω.
 </p>
@@ -274,10 +266,10 @@ text-decoration: none;" href="index2.html">Get Started</a>
 
 
 <div class="jwts_title"><div class="jwts_title_left"><a href="#" onclick="toggle_visibility('foo5');" class="jwts_title_text">expR</a></div></div>
-<div id="foo5" style="display:none;  margin-left:30px;"> EXPLORE User to explore all possibilities<br><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/videoSim/2DOF-Forced-Vib.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/videoSim/2DOF-Forced-Vib.swf" type="application/x-shockwave-flash" width="800"></embed></object> </div>
+<div id="foo5" style="display:none;  margin-left:30px;padding-left:30px"> EXPLORE User to explore all possibilities<br><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/videoSim/2DOF-Forced-Vib.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/videoSim/2DOF-Forced-Vib.swf" type="application/x-shockwave-flash" width="800"></embed></object> </div>
 
 <div class="jwts_title"><div class="jwts_title_left"><a href="#" onclick="toggle_visibility('foo6');" class="jwts_title_text">expT</a></div></div>
-<div id="foo6" style="display:none;  margin-left:30px;"> EXPERIMENT User to conduct an experiment<br><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/videoSim/2DOF-Forced-Vib_Expt.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/videoSim/2DOF-Forced-Vib_Expt.swf" type="application/x-shockwave-flash" width="800"></embed></object> </div>
+<div id="foo6" style="display:none;  margin-left:30px;padding-left:30px"> EXPERIMENT User to conduct an experiment<br><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/videoSim/2DOF-Forced-Vib_Expt.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/videoSim/2DOF-Forced-Vib_Expt.swf" type="application/x-shockwave-flash" width="800"></embed></object> </div>
 
                 </section>
 
@@ -403,7 +395,163 @@ text-decoration: none;" href="index1.html">Get Started</a>
                 </section>
     -->           
 
-                
+       <section id="lab-article-section-9">
+
+<div id="lab-article-section-9-icon" class="icon">
+<!-- Enclose the icon image for the section. -->
+<img src="../images/feedback.jpg" style="padding-left: 16px;" />
+</div>
+<!-- The heading for the section can be enclosed in a div tag and shown with a <h2> tag -->
+<div id="lab-article-section-9-heading" class="heading">
+Feedback
+</div>
+<!-- Write the section content inside a paragraph element, You can also include images with <img> tag -->
+<div id="lab-article-section-9-content" class="content">
+
+
+<!-- Custom form start -->
+
+<form method="POST" action="http://rtlabs.nitk.ac.in/feedback.php" role="form">
+<input type="hidden" name="code" value="1">
+<div class="form-group"> 
+<label for="name">What is your name?</label> <span class="error">*</span><br>
+<input type="text" style="width:700px;" name="name" class="form-control" value="" placeholder="You may chose to be Anonymous if you do not wish to disclose your name."required="">
+<br><br>
+</div>
+<div class="form-group"> 
+<label for="org">Which organization are you associated with?</label><span class="error">*</span><br>
+<input type="text" style="width:700px;" name="org"  class="form-control" value="" placeholder="Name of your College/Institute/University/Organization."required="">
+<br><br>
+</div>
+<div class="form-group">
+<label for="discipline">Which is your primary discipline?</label><span class="error">*</span><br>
+<input type="text" style="width:700px;" name="discipline" class="form-control" value="" placeholder="Example: Mechanical Engineering, Nanotechnology, Biomedical, Mathematics etc."required="">
+
+<br><br>
+</div>
+<label>Which of the following best describes your current work?</label> <span class="error">*</span><br>
+<div class="radio"><label><input type="radio" required name="occ" checked="true"  value="Studying">Studying<br></label></div>
+<div class="radio"><label><input type="radio" required  name="occ"  value="Teaching">Teaching<br></label></div>
+<div class="radio"><label><input type="radio" required name="occ"   value="Research">Research<br></label></div>
+<div class="radio"><label><input type="radio" required name="occ"  value="Industry">Industry<br></label></div>
+<div class="radio"><label><input type="radio" required name="occ"   value="other">Other <input type="text" name="occ-other"></input></label></div>
+
+<br>
+<div class="form-group">
+<label>Experiment Performed </label><span class="error">* </span><br>
+<select class="form-control" name="exp"  required>
+<option value="2DOF Forced Vibration">2DOF Forced Vibration</option>
+
+</select>
+
+</div>
+<br>
+<label>Please tell your agreement with the following </label><span class="error">* </span><br>
+<table style="width:100%; margin:0">
+<tr>
+<td></td>
+<td style="text-align:center; width:70px">Excellent</td>    
+<td style="text-align:center; width:70px">Very Good</td>
+<td style="text-align:center; width:70px">Good</td>
+<td style="text-align:center; width:70px">Average</td>
+<td style="text-align:center; width:70px">Needs Improvement</td>
+</tr>
+<tr>
+<td>To what degree was the actual lab environment simulated</td>
+
+<td style="text-align:center;">   <div class="radio"><label><input type="radio" checked="true"  required name="rea"  value="5"></label></div></td>    
+<td style="text-align:center;">   <div class="radio"><label><input type="radio" required  name="rea"  value="4"></label></div></td>
+<td style="text-align:center;">   <div class="radio"><label><input type="radio"required name="rea"   value="3"></label></div></td>
+<td style="text-align:center;">   <div class="radio"><label><input type="radio" required name="rea"  value="2"></label></div></td>
+<td style="text-align:center;">   <div class="radio"><label><input type="radio" required name="rea"  value="1"></label></div></td>
+</tr>
+<tr>
+<td>The theory and procedure were found to be helpful</td>
+<td style="text-align:center;"> <div class="radio"><label><input type="radio"required checked="true"  name="tnp"  value="5"></label></div></td>    
+<td style="text-align:center;"> <div class="radio"><label><input type="radio"required  name="tnp"   value="4"></label></div></td>
+<td style="text-align:center;"> <div class="radio"><label><input type="radio"required  name="tnp"   value="3"></label></div></td>
+<td style="text-align:center;"> <div class="radio"><label><input type="radio"required name="tnp"  value="2"></label></div></td>
+<td style="text-align:center;"> <div class="radio"><label><input type="radio"required name="tnp"   value="1"></label></div></td>
+</tr>
+<tr>
+<td>The results of simulation/experiment were easily interpretable</td>
+<td style="text-align:center;"> <div class="radio"><label><input type="radio" checked="true"  required name="eas"  value="5"></label></div></td>    
+<td style="text-align:center;"> <div class="radio"><label><input type="radio"required name="eas"   value="4"></label></div></td>
+<td style="text-align:center;"> <div class="radio"><label><input type="radio"required name="eas"  value="3"></label></div></td>
+<td style="text-align:center;"> <div class="radio"><label><input type="radio"required name="eas"  value="2"></label></div></td>
+<td style="text-align:center;"> <div class="radio"><label><input type="radio"required name="eas"   value="1"></label></div></td>
+</tr>
+</table>
+<br>
+<div class="form-group">
+<label for="help">How helpful do you feel the system is?</label>
+<br><input type="text" style="width:700px;" class="form-control"name="help" value="">
+<br><br>
+</div>
+<label>Please answer the following questions</label><span class="error">* </span><br>
+<table style="width:100%; border:none; margin:0">
+<tr>
+<td></td>
+<td>Yes</td>    
+<td>No</td>
+</tr>
+<tr>
+<td>Did you get the feel of actual lab while performing the simulation/experiments</td>
+<td> <div class="radio"><label><input type="radio"required name="a" checked="true"  value="Y"></label></div></td>    
+<td> <div class="radio"><label><input type="radio"required name="a"  value="N"></label></div></td>
+</tr>
+<tr>
+<td>Did you read the theory and procedure before performing the simulation/experiments</td>
+<td> <div class="radio"><label><input type="radio"required name="b" checked="true"  value="Y"></label></div></td>    
+<td> <div class="radio"><label><input type="radio"required name="b"   value="N"></label></div></td>
+</tr>
+
+<tr>
+<td>Could you conduct the simulation/experiment successfully</td>
+<td> <div class="radio"><label><input type="radio"required name="c" checked="true"  value="Y"></label></div></td>    
+<td> <div class="radio"><label><input type="radio"required name="c" value="N"></label></div></td>
+</tr>
+<tr>
+<td>Could you compare your results with the given typical results in explore</td>
+<td> <div class="radio"><label><input type="radio"required name="d" checked="true"  value="Y"></label></div></td>    
+<td> <div class="radio"><label><input type="radio"required name="d"   value="N"></label></div></td>
+</tr>
+<tr>
+<td>Do you think performing experiments through virtual labs are more challenging than the real experiments</td>
+<td> <div class="radio"><label><input type="radio"required name="e"  checked="true"  value="Y"></label></div></td>    
+<td> <div class="radio"><label><input type="radio"required name="e"   value="N"></label></div></td>
+</tr>
+<tr>
+<td>Do you think doing experiments through virtual lab gives scope for more innovative and creative research work</td>
+<td> <div class="radio"><label><input type="radio"required name="f"  checked="true"  value="Y"></label></div></td>    
+<td> <div class="radio"><label><input type="radio"required name="f"  value="N"></label></div></td>
+</tr>
+</table>
+<br><br>
+<div class="form-group">
+<label for="c1">Please mention any problems/difficulties you faced while performing the simulation/experiment. It will help us improve the content for your later visits.</label>
+<br><textarea  name="c1" class="form-control" rows="4" cols="50"></textarea>
+<br><br>
+</div>
+<div class="form-group">
+<label for="c2">What do you find most interesting thing about the simulation/experiment? We would be happy to know what delighted you.</label>
+<br><textarea name="c2" class="form-control" rows="4" cols="50"></textarea>
+<br><br>
+</div>
+<div class="form-group">
+<label for="c2">Is there anything else that you would like to tell us ?</label>
+<br><textarea name="c3"class="form-control"  rows="4" cols="50"></textarea>
+<br><br>
+</div>
+<button type="submit" name="submit"  class="btn btn-default" value="Submit"> Submit </button>
+</form>
+
+
+<!-- Custom form complete -->
+
+</div>
+	
+</section>         
             </div>
         </article>
     </div>

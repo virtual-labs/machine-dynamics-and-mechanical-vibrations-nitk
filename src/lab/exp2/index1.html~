@@ -80,10 +80,10 @@ margin-top:-1px;
 
            
 <div class="breadcrumb" id="experiment-article-breadcrumb"><font color="white"><a href="../../index.html">Home</a><a></a> &gt; <a href="../index.html">Machine-Dynamics-Mechanical-Vibration-Lab</a> &gt; <a href="index.html">
-                 	Free vibration of fixed beam
+                 	Free vibration of simply supported beam
             </a></font></div>
             <header class="heading" id="experiment-article-heading">
-               Free vibration of fixed beam
+               Free vibration of simply supported beam
             </header>
 
  </article >
@@ -98,7 +98,7 @@ margin-top:-1px;
 <div id="experiment-article-sections">
 
 
- <div id="slickQuiz" style="width: 1020px;height:1200px;">
+ <div id="slickQuiz" style="width: 1020px;height:auto;">
         <h1 style="display: block;font-size: 26px;
 margin: 0px 0px 20px;
 color: #0C4569; padding-left:30px;"  class="quizName"><!-- where the quiz name goes --></h1>
@@ -124,7 +124,7 @@ margin: 15px 0px 10px;font-weight: bold;" class="quizLevel"><strong>Our Opinion:
             </div>
         </div>
 
-       
+           <div class="gohome" style="padding:30px">To go back to experiment home <a href="../exp2/">Click Here</a></div>
     </div>
     </div>
  <script src="slickQuiz-config.js"></script>

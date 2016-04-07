@@ -76,7 +76,7 @@ edit -->
                     "experiment-article-section-1-content" >
                         
 <div class="divContent"  id="wrap">
-                           <p><span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;">When an applied force causes the system to vibrate it is considered as a case of forced vibration. An external excitation is often reduced to one of the following types:</span></span></p><ul><li><span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;">External Harmonic Force </span></span><br><img src="../images/exp4T1.png" style="height:auto;width:auto"/></li><li><span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;">Base Excitation </span></span><br><img src="../images/exp4T2.png" style="height:auto;width:auto"/> <span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;">where </span></span><img src="../images/exp4T3.png" style="height:auto;width:auto"/> <span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;">is the motion of the base</span></span></li><li><span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;">Rotating Imbalance</span></span><br><img src="../images/exp4T4.png" style="height:auto;width:auto"/> <span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;">where </span></span>m<sub>0</sub> <span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;">is the imbalance mass </span></span>e <span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;">is the eccentricity of imbalance mass and </span></span>&omega;<span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;"> is the angular velocity(rad/s) of rotation</span></span></li></ul><p><strong><span style="font-size:16px;"><span style="font-family:arial,helvetica,sans-serif;">Solution of the System</span></span></strong></p><p><span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;">The solution of the forced vibration system consists of a steady state part and a transient part. The steady state response is independent of the initial conditions. The transient part comes to zero with time and is usually neglected. The steady state response is of the form </span></span><br><img src="../images/exp4T5.png" style="height:auto;width:auto"/><span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;"> where</span></span> X<sub>0</sub> <span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;">is the amplitude and </span></span>&phi;<span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;"> is the phase of steady state vibration. For </span></span><img src="../images/exp4T6.png" style="height:auto;width:auto"/><span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;"> external harmonic excitation the steady state parameters are given by </span></span><br><img src="../images/exp4T7.png" style="height:auto;width:auto"/><span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;">where </span></span><img src="../images/exp4T8.png" style="height:auto;width:auto"/><span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;"> is the deflection due to static force</span></span> F<sub>0</sub> <span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;">and </span></span>&eta; = &omega;/&omega;<sub>n</sub> <span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;">is the ratio of operating frequency to the natural frequency of the system.</span></span></p>
+                           <p><span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;">When an applied force causes the system to vibrate it is considered as a case of forced vibration. An external excitation is often reduced to one of the following types:</span></span></p><ul><li><span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;">External Harmonic Force </span></span><br><img src="../images/exp4T1.png" style="height:auto;width:auto"/></li><li><span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;">Base Excitation </span></span><br><img src="../images/exp4T2.png" style="height:auto;width:auto"/> <span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;">where </span></span><img src="../images/exp4T3.png" style="height:auto;width:auto"/> <span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;">is the motion of the base</span></span></li><li><span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;">Rotating Imbalance</span></span><br><img src="../images/exp4T4.png" style="height:auto;width:auto"/> <span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;">where </span></span>m<sub>0</sub> <span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;">is the imbalance mass </span></span>e <span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;">is the eccentricity of imbalance mass and </span></span>&omega;<span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;"> is the angular velocity(rad/s) of rotation</span></span></li></ul><p><strong><span style="font-size:16px;"><span style="font-family:arial,helvetica,sans-serif;">Solution of the System</span></span></strong></p><p><span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;">The solution of the forced vibration system consists of a steady state part and a transient part. The steady state response is independent of the initial conditions. The transient part comes to zero with time and is usually neglected. The steady state response is of the form </span></span><br><img src="../images/exp4T5.png" style="height:auto;width:auto"/><span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;"> where</span></span> X<sub>0</sub> <span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;">is the amplitude and </span></span>&phi;<span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;"> is the phase of steady state vibration. For </span></span><img src="../images/exp4T6.png" style="height:auto;width:auto"/><span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;"> external harmonic excitation the steady state parameters are given by </span></span><br><img src="../images/exp4T7.png" style="height:auto;width:auto"/><span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;"><br/>where </span></span><img src="../images/exp4T8.png" style="height:auto;width:auto"/><span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;"> is the deflection due to static force</span></span> F<sub>0</sub> <span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;">and </span></span>&eta; = &omega;/&omega;<sub>n</sub> <span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;">is the ratio of operating frequency to the natural frequency of the system.</span></span></p>
 
 </p></div>
  </section>
@@ -93,7 +93,29 @@ edit -->
                     <div class="content" id=
                     "experiment-article-section-2-content">
                         <div class="divContent">
-                          Change parameters in variables section and observe the changes in the simulation window. Navigate to Graph of Amplitude and Phase and study variation in response to forced vibration with change in parameters.
+
+<b>AIM:</b>
+<br>
+To observe the effect of damping in Forced Vibration of SDOF system using a Harmonic Force<br>
+<b>PROCEDURE:</b>
+<br>
+1. Set a value of Stiffness and Mass for the system. Set a small value of damping ratio (less than half of 0.707). Notice the natural frequency of the system shown below the graphs. You can set a value of operating frequency which will be marked in the graph.<br>
+<img src="../images/FDVSDOF1.jpg" style="height:auto;width:auto"/>
+<br>2. Click on the right arrow to load the graph of magnification factor and phase angle versus frequency ratio.
+ <br>
+<img src="../images/FDVSDOF2.jpg" style="height:auto;width:auto"/>
+<br>3. Click on the left arrow to come back to system display screen. Edit the damping ratio. Set to a value between 0.35 and 0.707.
+ <br>
+<img src="../images/FDVSDOF3.jpg" style="height:auto;width:auto"/>
+<br>4. Click on the right arrow to load the graph of magnification factor and phase angle versus frequency ratio. Observe the change in Magnification factor curve. 
+ <br>
+<img src="../images/FDVSDOF4.jpg" style="height:auto;width:auto"/>
+<br>5. Once again click on the left arrow to come back to system display screen. Edit the damping ratio. Set to a value higher than 0.707.
+ <br>
+<img src="../images/FDVSDOF5.jpg" style="height:auto;width:auto"/>
+<br>6. Click on the right arrow to load the graph of magnification factor and phase angle versus frequency ratio and notice the change in Magnification Factor values against frequency ratio.
+ <br>
+<img src="../images/FDVSDOF6.jpg" style="height:auto;width:auto"/>
               
 
                             
@@ -148,9 +170,9 @@ text-decoration: none;" href="index2.html">Get Started</a>
 
 
 <div class="jwts_tabbertab" title=" Simulation"><div class="jwts_title"><div class="jwts_title_left"><a href="#" onclick="toggle_visibility('foo4');" class="jwts_title_text">expN</a></div></div></div>
-<div id="foo4" style="display:none;  margin-left:30px;"> EXPLAIN for talking tutorial<br><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/videoSim/ForceVib.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/videoSim/ForceVib.swf" type="application/x-shockwave-flash" width="800"></embed></object> </div>
+<div id="foo4" style="display:none;  margin-left:30px;padding-left:30px"> EXPLAIN for talking tutorial<br><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/videoSim/ForceVib.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/videoSim/ForceVib.swf" type="application/x-shockwave-flash" width="800"></embed></object> </div>
 <div class="jwts_title"><div class="jwts_title_left"><a href="#" onclick="toggle_visibility('foo5');" class="jwts_title_text">expR</a></div></div>
-<div id="foo5" style="display:none;  margin-left:30px;"> <br>EXPLORE User to explore all possibilities<br><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/videoSim/ForcedVib.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/videoSim/ForcedVib.swf" type="application/x-shockwave-flash" width="800"></embed></object> </div>
+<div id="foo5" style="display:none;  margin-left:30px;padding-left:30px"> <br>EXPLORE User to explore all possibilities<br><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="600" width="800"><param name="quality" value="high" /><param name="movie" value="../images/videoSim/ForcedVib.swf" /><embed height="600" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="../images/videoSim/ForcedVib.swf" type="application/x-shockwave-flash" width="800"></embed></object> </div>
 
 
                 </section>
@@ -278,7 +300,171 @@ text-decoration: none;" href="index1.html">Get Started</a>
                     </div>
                 </section>
     -->                    
-               
+          
+<section id="lab-article-section-9">
+
+<div id="lab-article-section-9-icon" class="icon">
+<!-- Enclose the icon image for the section. -->
+<img src="../images/feedback.jpg" style="padding-left: 16px;" />
+</div>
+<!-- The heading for the section can be enclosed in a div tag and shown with a <h2> tag -->
+<div id="lab-article-section-9-heading" class="heading">
+Feedback
+</div>
+<!-- Write the section content inside a paragraph element, You can also include images with <img> tag -->
+<div id="lab-article-section-9-content" class="content">
+
+
+<!-- Custom form start -->
+
+<form method="POST" action="http://rtlabs.nitk.ac.in/feedback.php" role="form">
+<input type="hidden" name="code" value="1">
+<div class="form-group"> 
+<label for="name">What is your name?</label> <span class="error">*</span><br>
+<input type="text" style="width:700px;" name="name" class="form-control" value="" placeholder="You may chose to be Anonymous if you do not wish to disclose your name."required="">
+<br><br>
+</div>
+<div class="form-group"> 
+<label for="org">Which organization are you associated with?</label><span class="error">*</span><br>
+<input type="text" style="width:700px;" name="org"  class="form-control" value="" placeholder="Name of your College/Institute/University/Organization."required="">
+<br><br>
+</div>
+<div class="form-group">
+<label for="discipline">Which is your primary discipline?</label><span class="error">*</span><br>
+<input type="text" style="width:700px;" name="discipline" class="form-control" value="" placeholder="Example: Mechanical Engineering, Nanotechnology, Biomedical, Mathematics etc."required="">
+
+<br><br>
+</div>
+<label>Which of the following best describes your current work?</label> <span class="error">*</span><br>
+<div class="radio"><label><input type="radio" required name="occ" checked="true"  value="Studying">Studying<br></label></div>
+<div class="radio"><label><input type="radio" required  name="occ"  value="Teaching">Teaching<br></label></div>
+<div class="radio"><label><input type="radio" required name="occ"   value="Research">Research<br></label></div>
+<div class="radio"><label><input type="radio" required name="occ"  value="Industry">Industry<br></label></div>
+<div class="radio"><label><input type="radio" required name="occ"   value="other">Other <input type="text" name="occ-other"></input></label></div>
+
+<br>
+<div class="form-group">
+<label>Experiment Performed </label><span class="error">* </span><br>
+<select class="form-control" name="exp"  required>
+<option value="Choose" disabled>Choose</option>
+<option value="General Feedback">General Feedback</option>
+<option value="Free Vibration Of Cantilever Beam">Free Vibration Of Cantilever Beam</option>
+<option value="Free Vibration Of Simply Supported Beam">Free Vibration Of Simply Supported Beam</option>
+<option value="Free Vibartion Of SDOF System">Free Vibartion Of SDOF System</option>
+<option value="Base Excitation">Base Excitation</option>
+<option value="Rotating Unblance">Rotating Unbalance</option>
+<option value="2DOF Forced Vibration">2DOF Forced Vibration</option>
+<option value="Dynamic Vibration Absorber">Dynamic Vibration Absorber</option>
+</select>
+
+</div>
+<br>
+<label>Please tell your agreement with the following </label><span class="error">* </span><br>
+<table style="width:100%; margin:0">
+<tr>
+<td></td>
+<td style="text-align:center; width:70px">Excellent</td>    
+<td style="text-align:center; width:70px">Very Good</td>
+<td style="text-align:center; width:70px">Good</td>
+<td style="text-align:center; width:70px">Average</td>
+<td style="text-align:center; width:70px">Needs Improvement</td>
+</tr>
+<tr>
+<td>To what degree was the actual lab environment simulated</td>
+
+<td style="text-align:center;">   <div class="radio"><label><input type="radio" checked="true"  required name="rea"  value="5"></label></div></td>    
+<td style="text-align:center;">   <div class="radio"><label><input type="radio" required  name="rea"  value="4"></label></div></td>
+<td style="text-align:center;">   <div class="radio"><label><input type="radio"required name="rea"   value="3"></label></div></td>
+<td style="text-align:center;">   <div class="radio"><label><input type="radio" required name="rea"  value="2"></label></div></td>
+<td style="text-align:center;">   <div class="radio"><label><input type="radio" required name="rea"  value="1"></label></div></td>
+</tr>
+<tr>
+<td>The theory and procedure were found to be helpful</td>
+<td style="text-align:center;"> <div class="radio"><label><input type="radio"required checked="true"  name="tnp"  value="5"></label></div></td>    
+<td style="text-align:center;"> <div class="radio"><label><input type="radio"required  name="tnp"   value="4"></label></div></td>
+<td style="text-align:center;"> <div class="radio"><label><input type="radio"required  name="tnp"   value="3"></label></div></td>
+<td style="text-align:center;"> <div class="radio"><label><input type="radio"required name="tnp"  value="2"></label></div></td>
+<td style="text-align:center;"> <div class="radio"><label><input type="radio"required name="tnp"   value="1"></label></div></td>
+</tr>
+<tr>
+<td>The results of simulation/experiment were easily interpretable</td>
+<td style="text-align:center;"> <div class="radio"><label><input type="radio" checked="true"  required name="eas"  value="5"></label></div></td>    
+<td style="text-align:center;"> <div class="radio"><label><input type="radio"required name="eas"   value="4"></label></div></td>
+<td style="text-align:center;"> <div class="radio"><label><input type="radio"required name="eas"  value="3"></label></div></td>
+<td style="text-align:center;"> <div class="radio"><label><input type="radio"required name="eas"  value="2"></label></div></td>
+<td style="text-align:center;"> <div class="radio"><label><input type="radio"required name="eas"   value="1"></label></div></td>
+</tr>
+</table>
+<br>
+<div class="form-group">
+<label for="help">How helpful do you feel the system is?</label>
+<br><input type="text" style="width:700px;" class="form-control"name="help" value="">
+<br><br>
+</div>
+<label>Please answer the following questions</label><span class="error">* </span><br>
+<table style="width:100%; border:none; margin:0">
+<tr>
+<td></td>
+<td>Yes</td>    
+<td>No</td>
+</tr>
+<tr>
+<td>Did you get the feel of actual lab while performing the simulation/experiments</td>
+<td> <div class="radio"><label><input type="radio"required name="a" checked="true"  value="Y"></label></div></td>    
+<td> <div class="radio"><label><input type="radio"required name="a"  value="N"></label></div></td>
+</tr>
+<tr>
+<td>Did you read the theory and procedure before performing the simulation/experiments</td>
+<td> <div class="radio"><label><input type="radio"required name="b" checked="true"  value="Y"></label></div></td>    
+<td> <div class="radio"><label><input type="radio"required name="b"   value="N"></label></div></td>
+</tr>
+
+<tr>
+<td>Could you conduct the simulation/experiment successfully</td>
+<td> <div class="radio"><label><input type="radio"required name="c" checked="true"  value="Y"></label></div></td>    
+<td> <div class="radio"><label><input type="radio"required name="c" value="N"></label></div></td>
+</tr>
+<tr>
+<td>Could you compare your results with the given typical results in explore</td>
+<td> <div class="radio"><label><input type="radio"required name="d" checked="true"  value="Y"></label></div></td>    
+<td> <div class="radio"><label><input type="radio"required name="d"   value="N"></label></div></td>
+</tr>
+<tr>
+<td>Do you think performing experiments through virtual labs are more challenging than the real experiments</td>
+<td> <div class="radio"><label><input type="radio"required name="e"  checked="true"  value="Y"></label></div></td>    
+<td> <div class="radio"><label><input type="radio"required name="e"   value="N"></label></div></td>
+</tr>
+<tr>
+<td>Do you think doing experiments through virtual lab gives scope for more innovative and creative research work</td>
+<td> <div class="radio"><label><input type="radio"required name="f"  checked="true"  value="Y"></label></div></td>    
+<td> <div class="radio"><label><input type="radio"required name="f"  value="N"></label></div></td>
+</tr>
+</table>
+<br><br>
+<div class="form-group">
+<label for="c1">Please mention any problems/difficulties you faced while performing the simulation/experiment. It will help us improve the content for your later visits.</label>
+<br><textarea  name="c1" class="form-control" rows="4" cols="50"></textarea>
+<br><br>
+</div>
+<div class="form-group">
+<label for="c2">What do you find most interesting thing about the simulation/experiment? We would be happy to know what delighted you.</label>
+<br><textarea name="c2" class="form-control" rows="4" cols="50"></textarea>
+<br><br>
+</div>
+<div class="form-group">
+<label for="c2">Is there anything else that you would like to tell us ?</label>
+<br><textarea name="c3"class="form-control"  rows="4" cols="50"></textarea>
+<br><br>
+</div>
+<button type="submit" name="submit"  class="btn btn-default" value="Submit"> Submit </button>
+</form>
+
+
+<!-- Custom form complete -->
+
+</div>
+	
+</section>     
             </div>
         </article>
     </div>
