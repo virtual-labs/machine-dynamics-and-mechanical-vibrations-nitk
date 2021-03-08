@@ -43,12 +43,15 @@ function runPage1() {
     y2_graph.update(spring1.y_base);
     y2_graph.draw(255, 0, 0)
 
-    textSize(12);
-    text('ωn = ' + spring1.wn + " rad/s", 310, 520);
-    text('η = ' + (_w.inp / spring1.wn), 310, 535);
-    text('z = ' + z.inp, 310, 550);
+    textSize(14);
+    textFont("Comic Sans MS")
+    fill(231, 114, 43);
+    text('ωn = ' + spring1.wn.toFixed(4) + " rad/s", 50, 520);
+    text('η = ' + (_w.inp / spring1.wn).toFixed(4), 50, 540);
+    text('ζ = ' + z.inp.toFixed(4), 50, 560);
 
     textSize(24);
+    fill(0, 0, 0);
     text("Harmonic Exitation", 95, 495);
 
     k.draw();

@@ -1,6 +1,8 @@
 function clearMe() {
     magFac.graphs = [];
     phaseAng.graphs = [];
+    magFac.initialise();
+    phaseAng.initialise();
 }
 
 function runPage2() {
@@ -21,6 +23,13 @@ function runPage2() {
     pop();
 
     push();
+    strokeWeight(10);
+    point(250, 400);
+    strokeWeight(0)
+    text("Operating Value of η", 255, 405)
+    pop();
+
+    push();
     stroke(0, 100);
     for (let i = 20; i < 591; i++) {
         point(i, 505);
@@ -33,14 +42,15 @@ function runPage2() {
     pop();
 
     textSize(12);
-    text('ωn = ' + spring1.wn + " rad/s", 310, 520);
-    text('η = ' + (_w.inp / spring1.wn), 310, 535);
-    text('z = ' + z.inp, 310, 550);
+    text('ωn = ' + spring1.wn.toFixed(4) + " rad/s", 310, 520);
+    text('η = ' + (_w.inp / spring1.wn).toFixed(4), 310, 535);
+    text('ζ = ' + z.inp.toFixed(4), 310, 550);
 
-    magFac.draw();
+    // magFac.draw();
     phaseAng.draw();
 
-    button3.draw()
+    button3.draw();
+    button4.draw();
 
     k.draw();
     m.draw();

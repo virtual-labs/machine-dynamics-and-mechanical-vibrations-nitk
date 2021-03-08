@@ -1,4 +1,4 @@
-class DynamicGraph  {
+class DynamicGraph {
     constructor(x, y, h, w, yLabel, xLabel, minX, maxX, minY, maxY, func) {
         this.length = 0;
         this.x = x;
@@ -13,32 +13,25 @@ class DynamicGraph  {
         this.yLabel = yLabel;
         this.graphs = [];
         this.function = func;
+        this.timer = 0;
     }
 
-    initialise()    {
+    initialise() {
+        this.timer = 0;
         let temp = [];
-        for (let x = 0; x < this.w; x+=1)   {
+        for (let x = 0; x < this.w; x += 1) {
             let tempx = map(x, 0, this.w, this.minX, this.maxX);
             let y = map(this.function(tempx, spring1), this.minY, this.maxY, 0, this.h);
             temp.push([x, y])
         }
         temp.label = [random(255), random(255), random(255)];
+        temp.timer = 0;
+        temp.operation = floor(map(_w.inp / spring1.wn, this.minX, this.maxX, 0, this.w));
         this.graphs.push(temp);
     }
 
-    draw()  {
+    draw() {
         push();
-
-        for (let n = 0; n < this.graphs.length; n++)   {
-            beginShape();
-            stroke(this.graphs[n].label[0], this.graphs[n].label[1], this.graphs[n].label[2]);
-            strokeWeight(1);
-            noFill();
-            for (let i = 0; i < this.graphs[n].length; i++) {
-                vertex(this.x + this.graphs[n][i][0], this.y - this.graphs[n][i][1]);
-            }
-            endShape();
-        }
 
         stroke(0);
         strokeWeight(1);
@@ -54,5 +47,52 @@ class DynamicGraph  {
         text(this.yLabel, 10, -20);
 
         pop();
+
+        push();
+
+        for (let n = 0; n < this.graphs.length - 1; n++) {
+            beginShape();
+            stroke(this.graphs[n].label[0], this.graphs[n].label[1], this.graphs[n].label[2]);
+            strokeWeight(1);
+            noFill();
+            for (let i = 0; i < this.graphs[n].timer; i++) {
+                vertex(this.x + this.graphs[n][i][0], this.y - this.graphs[n][i][1]);
+                if (i == this.graphs[n].operation) {
+                    push();
+                    strokeWeight(5);
+                    stroke(0);
+                    point(this.x + this.graphs[n][i][0], this.y - this.graphs[n][i][1]);
+                    pop();
+                }
+            }
+            endShape();
+        }
+
+        beginShape();
+        stroke(this.graphs[this.graphs.length - 1].label[0], this.graphs[this.graphs.length - 1].label[1], this.graphs[this.graphs.length - 1].label[2]);
+
+        let j = this.timer;
+        strokeWeight(1);
+        noFill();
+        for (let i = 0; i < j; i++) {
+            vertex(this.x + this.graphs[this.graphs.length - 1][i][0], this.y - this.graphs[this.graphs.length - 1][i][1]);
+            if (i == this.graphs[this.graphs.length - 1].operation) {
+                push();
+                strokeWeight(5);
+                stroke(0);
+                point(this.x + this.graphs[this.graphs.length - 1][i][0], this.y - this.graphs[this.graphs.length - 1][i][1]);
+                pop();
+            }
+        }
+        endShape();
+
+        pop();
+
+        if (this.timer < this.graphs[this.graphs.length - 1].length) {
+            this.timer += 1;
+            this.graphs[this.graphs.length - 1].timer = this.timer;
+        }
     }
+
 }
+

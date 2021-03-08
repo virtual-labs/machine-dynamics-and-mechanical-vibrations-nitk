@@ -13,13 +13,16 @@ class Graph {
     update(value) {
         this.wave.push(value);
         if (this.wave.length > this.w) {
-            this.delete();
+            // this.delete();
+            this.wave = this.wave.slice(2);
+            // console.log("in")
         }
     }
 
     delete() {
         this.wave = [];
         t = 0.05;
+        console.log("hello")
     }
 
     draw(r, g, b) {
